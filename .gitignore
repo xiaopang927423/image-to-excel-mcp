@@ -1,41 +1,32 @@
-# Python 编译文件
-__pycache__
+```
+# Compiled and build artifacts
 *.pyc
-*.pyo
-*.pyd
-*.pyc
-*.db
-*.sqlite3
+__pycache__/
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.out
 
-# 虚拟环境
-.venv
-env/
-virtualenv/
-
-
-# 构建文件
-dist/
-build/
-*.egg-info/
-eggs/
-develop-eggs/
-
-# 环境变量文件
+# Dependencies
+.venv/
+venv/
 .env
 .env.local
-.env.development.local
-.env.test.local
-.env.production.local
+*.env.*
 
-# 日志文件
+# Logs and temp files
 *.log
-
-# IDE 相关文件
-.idea/
-.vscode/
+*.tmp
 *.swp
-*.swo
 
-# 操作系统特定文件
-.DS_Store
-Thumbs.db
+# Editors
+.vscode/
+.idea/
+
+# Backup files
+*.bak
+*.old
+*~
+```
